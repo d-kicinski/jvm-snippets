@@ -36,17 +36,23 @@ fun Foo.hi(): Unit {
 
 
 fun main(args: Array<String>) {
-    run(::plainOldFunction)
-    run { println("run { println() }") }
-    customRun(::plainOldFunction)
-    customRun { println("Lambda expression passed in {}") }
-    customRunWithParameter(::plainOldFunctionWithParameter, 42)
-    customRunWithParameter({p: Int -> println("Lambda expression with parameter $p")}, 24)
+//    run(::plainOldFunction)
+//    run { println("run { println() }") }
+//    customRun(::plainOldFunction)
+//    customRun { println("Lambda expression passed in {}") }
+//    customRunWithParameter(::plainOldFunctionWithParameter, 42)
+//    customRunWithParameter({p: Int -> println("Lambda expression with parameter $p")}, 24)
+//
+//
+//    val foo = Foo("World")
+//    foo.hello()
+//    foo.hello("World2 ")
+//    foo.hi()
 
-
-    val foo = Foo("World")
-    foo.hello()
-    foo.hello("World2 ")
-    foo.hi()
-
+//    forLoop()
+//    println(whenExpression(8))
+//    println(whenExpression(42))
+//    iterateOverRanges()
+//    collections()
+    scopeFunctions()
 }
