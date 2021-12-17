@@ -54,5 +54,5 @@ fun main(args: Array<String>) {
 //    println(whenExpression(42))
 //    iterateOverRanges()
 //    collections()
-    scopeFunctions()
+//    scopeFunctions()
 }
